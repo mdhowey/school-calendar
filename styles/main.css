@@ -1,0 +1,62 @@
+html {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  align-self: flex-start;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  margin: 0;
+}
+
+.column-headers {
+  background-color: black;
+  height: 6rem;
+  width: 89rem;
+  margin-left: 0.2rem;
+  margin-bottom: 0.2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.dayLabel {
+  color: white;
+  margin-left: 7.5rem;
+  text-transform: uppercase;
+  padding-bottom: ;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.sidebar {
+  background-color: black;
+  margin: 0.2rem;
+}
+
+.days {
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.day {
+  height: 9rem;
+  width: 9rem;
+  margin: 0.2rem;
+  background-color: black;  
+}
